@@ -8,9 +8,9 @@
 	)
 	(paper "A4")
 	(title_block
-		(title "uConsole expansion card template")
-		(date "2024-07-10")
-		(rev "0.1")
+		(title "RigCon Extension Board for ClockworkPi uConsole")
+		(date "2025-02-26")
+		(rev "1.0")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -10227,7 +10227,7 @@
 		(path "/ef1dc105-788d-47cd-bf36-edccbf4b47b0")
 		(sheetname "Stammblatt")
 		(sheetfile "RigCon.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 4.62 -6.2)
 			(end 4.62 0)
@@ -12455,7 +12455,7 @@
 		(path "/a86f55c7-1c4f-4bb7-a3b2-00ad82446708")
 		(sheetname "Stammblatt")
 		(sheetfile "RigCon.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_poly
 			(pts
 				(xy 0.57615 -4.31634) (xy 0.666101 -4.213897) (xy 0.610838 -4.065261) (xy 0.407938 -3.897249) (xy 0.192797 -3.797971)
@@ -12644,7 +12644,7 @@
 		(path "/37b7eb0e-4e8d-4262-b256-b8e5f21f02ef")
 		(sheetname "Stammblatt")
 		(sheetfile "RigCon.kicad_sch")
-		(attr smd exclude_from_pos_files allow_soldermask_bridges)
+		(attr smd exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
 		(fp_rect
 			(start -0.6096 -13.716)
 			(end 2.54 13.462)
@@ -13402,7 +13402,7 @@
 		(path "/0df4a081-6aa6-4b61-89dc-a858c83afe80")
 		(sheetname "Stammblatt")
 		(sheetfile "RigCon.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 11.8 -1.65)
 			(end 11.8 1.65)
@@ -17476,7 +17476,7 @@
 		(path "/5293978a-b0d2-4cb2-8844-f7ef7c859823")
 		(sheetname "Stammblatt")
 		(sheetfile "RigCon.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 11.8 -1.65)
 			(end 11.8 1.65)
@@ -21671,7 +21671,7 @@
 		(path "/dc1df453-2621-4beb-ad70-676ef30966b0")
 		(sheetname "Stammblatt")
 		(sheetfile "RigCon.kicad_sch")
-		(attr smd exclude_from_pos_files)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_rect
 			(start -8.2 4.7)
 			(end 8.2 -4.7)
@@ -22326,6 +22326,7 @@
 		(property "Reference" "BT1"
 			(at -3.325 7.135 180)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "a96925b5-9862-4c63-8579-318fa015ac85")
 			(effects
 				(font
@@ -22783,6 +22784,7 @@
 		(property "Reference" "JP3"
 			(at 0 1.8 -90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "6dab3175-ac53-4cee-b1fe-b7d43c980165")
 			(effects
 				(font
@@ -22793,7 +22795,7 @@
 		)
 		(property "Value" "ATT"
 			(at 0 -1.9 -90)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "e24289f0-d994-4208-aa8f-9ed2ac31f9ed")
 			(effects
 				(font
@@ -23155,7 +23157,7 @@
 		(path "/0fa8bc1d-b3a0-48bc-b715-20db3e55a45e")
 		(sheetname "Stammblatt")
 		(sheetfile "RigCon.kicad_sch")
-		(attr smd exclude_from_pos_files)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_rect
 			(start -8.2 4.7)
 			(end 8.2 -4.7)
