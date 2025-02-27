@@ -66,7 +66,7 @@
 		(start -6.605 -2.3739)
 		(end -6.605 -2.026)
 		(stroke
-			(width 0.127)
+			(width 0.153)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -76,7 +76,7 @@
 		(start -6.605 2.026)
 		(end -6.605 6.6929)
 		(stroke
-			(width 0.127)
+			(width 0.153)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -86,7 +86,7 @@
 		(start -6.605 6.6929)
 		(end 6.605 6.6929)
 		(stroke
-			(width 0.127)
+			(width 0.153)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -96,7 +96,7 @@
 		(start -3.0734 -5.9055)
 		(end -6.605 -2.3739)
 		(stroke
-			(width 0.127)
+			(width 0.153)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -106,7 +106,7 @@
 		(start -3.0734 -5.9055)
 		(end 3.0734 -5.9055)
 		(stroke
-			(width 0.127)
+			(width 0.153)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -116,7 +116,7 @@
 		(start 3.0734 -5.9055)
 		(end 6.605 -2.3739)
 		(stroke
-			(width 0.127)
+			(width 0.153)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -126,7 +126,7 @@
 		(start 6.605 -2.3739)
 		(end 6.605 -2.026)
 		(stroke
-			(width 0.127)
+			(width 0.153)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -136,7 +136,7 @@
 		(start 6.605 2.026)
 		(end 6.605 6.6929)
 		(stroke
-			(width 0.127)
+			(width 0.153)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -146,7 +146,7 @@
 		(start 7.5 3)
 		(end 8.5 3)
 		(stroke
-			(width 0.127)
+			(width 0.2)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -156,7 +156,7 @@
 		(start 8 2.5)
 		(end 8 3.5)
 		(stroke
-			(width 0.127)
+			(width 0.2)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -283,26 +283,6 @@
 		(uuid "c9b6c0e6-7705-443e-bf7f-85413e00b859")
 	)
 	(fp_line
-		(start -10.5 0)
-		(end -9.5 0)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "39ea8188-5754-4f4c-8675-eec3a95b4d45")
-	)
-	(fp_line
-		(start -10 -0.5)
-		(end -10 0.5)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "08e8dce8-330c-4c09-b6fd-c36c0c270e08")
-	)
-	(fp_line
 		(start -6.605 -2.3739)
 		(end -6.605 6.6929)
 		(stroke
@@ -362,6 +342,26 @@
 		(layer "F.Fab")
 		(uuid "6f230de0-6cb9-4089-8269-fd4382849715")
 	)
+	(fp_line
+		(start 7.5 3)
+		(end 8.5 3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "39ea8188-5754-4f4c-8675-eec3a95b4d45")
+	)
+	(fp_line
+		(start 8 2.5)
+		(end 8 3.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "08e8dce8-330c-4c09-b6fd-c36c0c270e08")
+	)
 	(pad "N" smd rect
 		(at 0 -2.54)
 		(size 3.81 3.81)
@@ -382,5 +382,16 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(solder_mask_margin 0.102)
 		(uuid "ecf5d4df-21c0-4191-835a-af606424c7a9")
+	)
+	(model "${KIPRJMOD}/BK_940/BK-940.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
 	)
 )
