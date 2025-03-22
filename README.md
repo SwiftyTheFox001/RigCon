@@ -13,7 +13,7 @@ Extension Board for the ClockworkPI uConsole to connect ham radio equiptment
 
 ## Version History
 ### v1.1
-Fixes of v1.0 applied to Schematic, not re-ordered YET
+Fixes of v1.0 applied to schematic, not re-ordered YET
 
 Changes from RigCon version 1.0 to 1.1:
 - changed clock crystal footprint
