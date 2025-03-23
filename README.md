@@ -4,12 +4,11 @@ Extension Board for the ClockworkPI uConsole to connect ham radio equiptment
 ![PCB](RigCon.png)
 
 ## Features
-- Rig Interface similar to DigiRig
-    - Audio interface
-    - UART interface
-    - PTT
-- Additional external USB Port (500mA max)
-- RTC
+- Rig Interface equal to the DigiRig
+ - Audio interface + PTT (2,5mm Audio Jack)
+ - UART interface (2,5mm Audio Jack)
+- Additional external USB-C Port (500mA max)
+- RTC with Backup Battery (CR1220)
 
 ## Production
 
